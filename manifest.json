@@ -1,0 +1,26 @@
+{
+    "manifest_version": 4,
+    "type": "extension",
+    "name": "扩大关闭按钮",
+    "slug": "LARGER_close_button",
+    "description": "把原先那一点点大的关闭按钮弄大一些",
+    "version": "0.0.1",
+    "icon": "./icon.svg",
+    "authors": [
+        {
+            "name": "Joe_Ye",
+            "link": "https://github.com/JoeYe-233"
+        }
+    ],
+    "platform": [
+        "win32",
+        "linux",
+        "darwin"
+    ],
+    "injects": {
+        "preload": "./src/preload.js"
+    },
+    "repository": {
+        "repo": "JoeYe-233/QQNT-LARGER-Close-Button"
+    }
+}
